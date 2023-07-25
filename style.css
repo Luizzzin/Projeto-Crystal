@@ -188,3 +188,8 @@
 .negrito{
     font: 700 30px 'inter';
 }
+.footer{
+    height: 300px;
+    width: 98vw;
+    background-color: #008374;
+}

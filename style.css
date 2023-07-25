@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
@@ -8,8 +8,9 @@
     font-family: 'inter';
     src: url(Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
+
 /* barra para se localizar */
-.header{
+.header {
     width: 99vw;
     height: 91px;
     background-color: #008374;
@@ -17,58 +18,67 @@
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 3;
 }
+
 /* ---- */
-.titulo{
+.titulo {
     margin-left: 110px;
     margin-right: 780px;
     font: 700 32px 'inter';
     color: white;
 }
-#font{
+
+#font {
     font: 400 24px 'inter';
     color: white;
     margin-left: 30px;
     margin-right: 30px;
 }
+
 /* parte onde tem a mulher */
-.foco{
+.foco {
     background-color: #23a092;
     width: 99vw;
     height: 90vh;
     align-items: center;
     display: flex;
     justify-content: center;
-    
+
 }
-.muler{
+
+.muler {
     width: 1500px;
     height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
+
 }
-#foco{
+
+#foco {
     font: 700 32px 'inter';
     color: white;
 }
-#foco2{
+
+#foco2 {
     font: 400 28px 'inter';
     color: white;
 }
 
-.quadrados{
+.quadrados {
     width: 99vw;
     height: 57vw;
     position: absolute;
-   display: flex;
-   justify-content: center;
-   align-items: end;
-   justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    justify-content: space-around;
+    z-index: 1;
 }
-#quadra{
+
+#quadra {
     width: 230px;
     height: 205px;
     background-color: white;
@@ -79,43 +89,73 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
 /* primeiro quadrado da fileira */
-.prime{
-    margin-left: 100px ;
+.prime {
+    margin-left: 100px;
 }
+
 /* ---- */
 /* ultimo quadrado da fileira */
-.ulti{
+.ulti {
     margin-right: 100px;
 }
+
 /* ----- */
 /* editor dos textos e icones dos quadrados */
-#icon{
-    margin-top: 20px ;
+#icon {
+    margin-top: 20px;
 }
-#text{
+
+#text {
     font: 500 18px 'inter';
     margin-bottom: 20px;
 }
+
 /* ---- */
 /* parte dos planos crystal */
-.plan{
+.plan {
     font: 500 30px 'inter';
 }
-.planos{
+
+.planos {
     height: 500px;
     align-items: end;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
-.lorem{
+
+.lorem {
     font: 400 24px 'inter';
 }
-.orga{
+
+.orga {
     display: flex;
     justify-content: start;
     width: 900px;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
-/* ----- */
+
+.price {
+    width: 98vw;
+    height: 700px;
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#retan {
+    width: 500px;
+    height: 600px;
+    background-color: #bebdbd;
+}
+
+.retan1 {
+    margin-left: 150px;
+}
+
+.retan2 {
+    margin-right: 150px;
+}

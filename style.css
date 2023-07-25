@@ -8,7 +8,7 @@
     font-family: 'inter';
     src: url(Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
-
+/* barra para se localizar */
 .header{
     width: 99vw;
     height: 91px;
@@ -16,9 +16,9 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    
+    position: fixed;
 }
-
+/* ---- */
 .titulo{
     margin-left: 110px;
     margin-right: 780px;
@@ -31,7 +31,7 @@
     margin-left: 30px;
     margin-right: 30px;
 }
-
+/* parte onde tem a mulher */
 .foco{
     background-color: #23a092;
     width: 99vw;
@@ -50,9 +50,6 @@
     align-items: center;
     
 }
-.empresa{
-
-}
 #foco{
     font: 700 32px 'inter';
     color: white;
@@ -65,7 +62,6 @@
 .quadrados{
     width: 99vw;
     height: 57vw;
-    border: 1px solid black;
     position: absolute;
    display: flex;
    justify-content: center;
@@ -83,13 +79,43 @@
     flex-direction: column;
     justify-content: space-around;
 }
+/* primeiro quadrado da fileira */
 .prime{
     margin-left: 100px ;
 }
-
+/* ---- */
+/* ultimo quadrado da fileira */
 .ulti{
     margin-right: 100px;
 }
-.caderno{
-    j
+/* ----- */
+/* editor dos textos e icones dos quadrados */
+#icon{
+    margin-top: 20px ;
 }
+#text{
+    font: 500 18px 'inter';
+    margin-bottom: 20px;
+}
+/* ---- */
+/* parte dos planos crystal */
+.plan{
+    font: 500 30px 'inter';
+}
+.planos{
+    height: 500px;
+    align-items: end;
+    display: flex;
+    justify-content: center ;
+}
+.lorem{
+    font: 400 24px 'inter';
+}
+.orga{
+    display: flex;
+    justify-content: start;
+    width: 900px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+/* ----- */

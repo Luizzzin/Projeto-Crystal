@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.header{
+    width: 99vw;
+    height: 91px;
+    background-color: #008374;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+}
+
+.titulo{
+    margin-left: 110px;
+    margin-right: 780px;
+    font: 700 32px 'inter';
+    color: white;
+}
+#font{
+    font: 400 24px 'inter';
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.foco{
+    background-color: #23a092;
+    width: 99vw;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.muler{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.empresa{
+
+}
+#foco{
+    font: 700 32px 'inter';
+    color: white;
+}
+#foco2{
+    font: 400 28px 'inter';
+    color: white;
+}
+
+.quadrados{
+    width: 99vw;
+    height: 57vw;
+    border: 1px solid black;
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   justify-content: space-around;
+}
+#quadra{
+    width: 230px;
+    height: 205px;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.prime{
+    margin-left: 100px ;
+}
+
+.ulti{
+    margin-right: 100px;
+}
+.caderno{
+    j
+}

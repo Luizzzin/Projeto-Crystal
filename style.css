@@ -189,7 +189,40 @@
     font: 700 30px 'inter';
 }
 .footer{
-    height: 300px;
-    width: 98vw;
+    height: 250px;
+    width: 99vw;
     background-color: #008374;
+    display: flex;
+}
+.foo{
+    width: 800px ;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foo2{
+    width: 800px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#fooz{
+    font: 400 24px 'inter';
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.oof{
+    width: 120px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#fofi{
+    color: white;
+    font: 400 24px 'inter';
 }

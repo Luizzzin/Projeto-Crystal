@@ -149,7 +149,10 @@
 #retan {
     width: 500px;
     height: 600px;
-    background-color: #bebdbd;
+    background-color: #dcdbdb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .retan1 {
@@ -158,4 +161,30 @@
 
 .retan2 {
     margin-right: 150px;
+}
+
+#info { 
+    margin-top: 50px;
+}
+#barra{
+    width: 500px;
+    height: 40px;
+    background-color: #ff912d;
+}
+#preço{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#haha{
+    font: 500 30px 'inter';
+}
+.negrito{
+    font: 700 30px 'inter';
 }
